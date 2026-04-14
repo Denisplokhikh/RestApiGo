@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strconv" // To register the driver.
+	"strconv"
 )
 
 func main() {

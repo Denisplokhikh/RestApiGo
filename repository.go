@@ -22,6 +22,11 @@ func (s *Storage) Close() {
 	s.DB.Close()
 }
 
+type User struct {
+	username string
+	password string
+}
+
 type CreateTaskRequest struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
